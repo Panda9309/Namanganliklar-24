@@ -116,6 +116,11 @@ a {
     transform: scale(1.05, 1.05);
 }
 .header__nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.header__nav {
     height: 68px;
     width: 1200px;
     display: flex;
